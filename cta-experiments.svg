@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead11" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    <rect x="50" y="50" width="700" height="800" rx="10" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+    
+    <!-- Title -->
+    <text x="400" y="90" font-family="Arial" font-size="24" text-anchor="middle" fill="#3a6ea5">Next-Phase CTA Experiments</text>
+    
+    <!-- Mobile Mockups -->
+    <rect x="100" y="120" width="200" height="400" rx="20" fill="#333" stroke="#222" stroke-width="3"/>
+    <rect x="110" y="130" width="180" height="380" rx="15" fill="#fff"/>
+    
+    <!-- Mobile content -->
+    <rect x="110" y="130" width="180" height="40" rx="15 15 0 0" fill="#3a6ea5"/>
+    <text x="200" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">Blog Post</text>
+    
+    <!-- Blog content lines -->
+    <line x1="130" y1="190" x2="270" y2="190" stroke="#eee" stroke-width="2"/>
+    <line x1="130" y1="210" x2="270" y2="210" stroke="#eee" stroke-width="2"/>
+    <line x1="130" y1="230" x2="270" y2="230" stroke="#eee" stroke-width="2"/>
+    <line x1="130" y1="250" x2="270" y2="250" stroke="#eee" stroke-width="2"/>
+    <line x1="130" y1="270" x2="200" y2="270" stroke="#eee" stroke-width="2"/>
+    
+    <!-- Scroll-locked CTA -->
+    <rect x="120" y="400" width="160" height="100" rx="10" fill="#fff0e9" stroke="#f47c48" stroke-width="2"/>
+    <text x="200" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333" font-weight="bold">Missing Someone?</text>
+    <rect x="140" y="435" width="120" height="30" rx="5" fill="#fff" stroke="#ddd"/>
+    <text x="200" y="454" font-family="Arial" font-size="10" text-anchor="middle" fill="#666" font-style="italic">"I've been thinking about..."</text>
+    <rect x="150" y="475" width="100" height="20" rx="10" fill="#f47c48"/>
+    <text x="200" y="490" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">Send Now</text>
+    
+    <!-- Annotation -->
+    <line x1="270" y1="450" x2="310" y2="450" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="350" y="455" font-family="Arial" font-size="12" fill="#666">Scroll-locked CTA</text>
+    <text x="350" y="470" font-family="Arial" font-size="10" fill="#666">Stays visible as user scrolls</text>
+    
+    <!-- Second Mockup -->
+    <rect x="400" y="120" width="200" height="400" rx="20" fill="#333" stroke="#222" stroke-width="3"/>
+    <rect x="410" y="130" width="180" height="380" rx="15" fill="#fff"/>
+    
+    <!-- Mobile content -->
+    <rect x="410" y="130" width="180" height="40" rx="15 15 0 0" fill="#3a6ea5"/>
+    <text x="500" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">Blog Post</text>
+    
+    <!-- Blog content lines -->
+    <line x1="430" y1="190" x2="570" y2="190" stroke="#eee" stroke-width="2"/>
+    <line x1="430" y1="210" x2="570" y2="210" stroke="#eee" stroke-width="2"/>
+    <line x1="430" y1="230" x2="570" y2="230" stroke="#eee" stroke-width="2"/>
+    <line x1="430" y1="250" x2="570" y2="250" stroke="#eee" stroke-width="2"/>
+    <line x1="430" y1="270" x2="500" y2="270" stroke="#eee" stroke-width="2"/>
+    
+    <!-- Fade-in CTA -->
+    <rect x="430" y="300" width="140" height="140" rx="10" fill="#fff0e9" stroke="#f47c48" stroke-width="2" opacity="0.9"/>
+    <text x="500" y="325" font-family="Arial" font-size="12" text-anchor="middle" fill="#333" font-weight="bold">Say What You Feel</text>
+    <rect x="445" y="335" width="110" height="70" rx="5" fill="#fff" stroke="#ddd"/>
+    <line x1="455" y1="355" x2="545" y2="355" stroke="#eee" stroke-width="2"/>
+    <line x1="455" y1="375" x2="545" y2="375" stroke="#eee" stroke-width="2"/>
+    <line x1="455" y1="395" x2="500" y2="395" stroke="#eee" stroke-width="2"/>
+    <rect x="460" y="415" width="80" height="20" rx="10" fill="#f47c48"/>
+    <text x="500" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">Continue</text>
+    
+    <!-- Fade-in animation -->
+    <path d="M 570 350 C 585 350, 590 340, 590 325" stroke="#f47c48" stroke-width="2" fill="none" marker-end="url(#arrowhead11)"/>
+    <text x="635" y="335" font-family="Arial" font-size="12" fill="#666">Soft fade-in animation</text>
+    <text x="635" y="350" font-family="Arial" font-size="10" fill="#666">Appears as user reaches section</text>
+    
+    <!-- Desktop View -->
+    <rect x="150" y="550" width="500" height="250" rx="5" fill="#fff" stroke="#ddd" stroke-width="2"/>
+    
+    <!-- Browser chrome -->
+    <rect x="150" y="550" width="500" height="25" rx="5 5 0 0" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
+    <circle cx="165" cy="562" r="5" fill="#ff6b6b"/>
+    <circle cx="180" cy="562" r="5" fill="#ffe66d"/>
+    <circle cx="195" cy="562" r="5" fill="#4ecdc4"/>
+    
+    <!-- Blog post content -->
+    <text x="400" y="600" font-family="Arial" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">The Art of Gifting When Words Fall Short</text>
+    
+    <line x1="200" y1="630" x2="600" y2="630" stroke="#eee" stroke-width="2"/>
+    <line x1="200" y1="650" x2="600" y2="650" stroke="#eee" stroke-width="2"/>
+    <line x1="200" y1="670" x2="600" y2="670" stroke="#eee" stroke-width="2"/>
+    <line x1="200" y1="690" x2="400" y2="690" stroke="#eee" stroke-width="2"/>
+    
+    <!-- Minimalist GIFTFORM -->
+    <rect x="200" y="720" width="400" height="60" rx="5" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+    
+    <rect x="220" y="735" width="100" height="30" rx="5" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="270" y="755" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Name</text>
+    
+    <rect x="330" y="735" width="100" height="30" rx="5" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="380" y="755" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Occasion</text>
+    
+    <rect x="440" y="735" width="100" height="30" rx="5" fill="#f47c48" stroke="none"/>
+    <text x="490" y="755" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">Send Gift</text>
+    
+    <text x="400" y="710" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Minimalist "GIFTFORM" at end of post</text>
+</svg>

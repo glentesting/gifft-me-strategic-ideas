@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 250 350" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead12" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    <rect x="10" y="10" width="230" height="330" rx="10" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+    
+    <!-- Title -->
+    <text x="125" y="40" font-family="Arial" font-size="16" text-anchor="middle" fill="#3a6ea5" font-weight="bold">Testing Process</text>
+    
+    <!-- Testing flow -->
+    <rect x="50" y="70" width="150" height="40" rx="5" fill="#fff" stroke="#3a6ea5" stroke-width="2"/>
+    <text x="125" y="95" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">A/B Test Setup</text>
+    
+    <path d="M 125 110 L 125 130" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead12)"/>
+    
+    <rect x="50" y="130" width="150" height="40" rx="5" fill="#fff" stroke="#f47c48" stroke-width="2"/>
+    <text x="125" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Test Execution</text>
+    
+    <path d="M 125 170 L 125 190" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead12)"/>
+    
+    <rect x="50" y="190" width="150" height="40" rx="5" fill="#fff" stroke="#6c5ce7" stroke-width="2"/>
+    <text x="125" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Data Collection</text>
+    
+    <path d="M 125 230 L 125 250" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead12)"/>
+    
+    <rect x="50" y="250" width="150" height="40" rx="5" fill="#fff" stroke="#4ecdc4" stroke-width="2"/>
+    <text x="125" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Analysis</text>
+    
+    <path d="M 125 290 L 125 310" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead12)"/>
+    
+    <rect x="50" y="310" width="150" height="40" rx="5" fill="#fff" stroke="#ffe66d" stroke-width="2"/>
+    <text x="125" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Implementation</text>
+</svg>

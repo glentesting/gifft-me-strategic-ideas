@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="300" height="300" rx="10" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+    
+    <!-- Pie chart -->
+    <path d="M 150 150 L 150 50 A 100 100 0 0 1 237 112 Z" fill="#3a6ea5" stroke="#fff" stroke-width="2"/>
+    <text x="185" y="95" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">28%</text>
+    
+    <path d="M 150 150 L 237 112 A 100 100 0 0 1 237 188 Z" fill="#f47c48" stroke="#fff" stroke-width="2"/>
+    <text x="225" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">32%</text>
+    
+    <path d="M 150 150 L 237 188 A 100 100 0 0 1 150 250 Z" fill="#6c5ce7" stroke="#fff" stroke-width="2"/>
+    <text x="185" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">25%</text>
+    
+    <path d="M 150 150 L 150 250 A 100 100 0 0 1 63 188 Z" fill="#4ecdc4" stroke="#fff" stroke-width="2"/>
+    <text x="115" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">8%</text>
+    
+    <path d="M 150 150 L 63 188 A 100 100 0 0 1 63 112 Z" fill="#ff6b6b" stroke="#fff" stroke-width="2"/>
+    <text x="75" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">5%</text>
+    
+    <path d="M 150 150 L 63 112 A 100 100 0 0 1 150 50 Z" fill="#ffe66d" stroke="#fff" stroke-width="2"/>
+    <text x="115" y="95" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">2%</text>
+    
+    <!-- Title -->
+    <text x="150" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Gift Behavior</text>
+    <text x="150" y="170" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Triggers</text>
+</svg>

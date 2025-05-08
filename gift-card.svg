@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="280" height="280" rx="10" fill="#f8f9fa" stroke="#ddd" stroke-width="2"/>
+    
+    <!-- Gift card design -->
+    <rect x="50" y="50" width="200" height="200" rx="10" fill="#fff" stroke="#f47c48" stroke-width="3"/>
+    
+    <!-- Card header -->
+    <rect x="50" y="50" width="200" height="40" rx="10 10 0 0" fill="#f47c48"/>
+    <text x="150" y="75" font-family="Arial" font-size="16" text-anchor="middle" fill="#fff" font-weight="bold">GIFT CARD</text>
+    
+    <!-- Card content -->
+    <text x="150" y="120" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">To: [Name]</text>
+    
+    <rect x="70" y="135" width="160" height="60" rx="5" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+    <text x="150" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#666" font-style="italic">Your custom message will appear here...</text>
+    
+    <rect x="80" y="210" width="140" height="30" rx="15" fill="#3a6ea5"/>
+    <text x="150" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">Choose Gift Type</text>
+</svg>
